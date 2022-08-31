@@ -1,0 +1,93 @@
+.deck {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .card{
+        width: 200px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: #fff;
+        border: 1px solid #c3c3c3;
+        
+        .header{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 10px;
+
+
+            .iconCake{
+                width: 100%;
+                text-align: center;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            .congrats{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+                span{
+                    font-size: 16px;
+                    font-style: italic;
+                }
+            }
+            .dateBirthday{
+                width: 100%;
+                text-align: center;
+            }   
+
+    
+        }
+
+        .body{
+            width: 100%;
+
+            .bodyContainer{
+                display: flex;
+                justify-content: space-between;
+
+                .pictureProfile{
+                    text-align: center;
+                    width: 50%;
+                    height: 50px;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                .infoProfile{
+                    width: 50%;
+                    height: 50px;
+
+                    .name{
+                        width: 100%;
+                        span{
+                            font-weight: bold;
+                            font-size: 16px;
+
+                        }
+                    }
+                    .job{
+                        width: 100%;
+                        span{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            width: 100%;
+            padding: 10px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

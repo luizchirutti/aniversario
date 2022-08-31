@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "kmls",
+    "libraryId": "cc8f565c-99ef-428e-aadb-c882e72204f3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "kmls",
+    "solutionShortDescription": "kmls description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
